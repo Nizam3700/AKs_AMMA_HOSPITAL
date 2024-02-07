@@ -8,7 +8,7 @@ import Heade from './Header/Heade'
 function Layout() {
   return (
     <>
-    <Header/>
+    <Heade/>
     <Outlet/>
     <ElfSightPlugin/>
     <Footer/>

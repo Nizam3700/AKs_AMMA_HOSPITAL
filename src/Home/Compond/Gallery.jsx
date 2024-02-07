@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-function gallery() {
+function Gallery() {
   return ( 
 <>
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -26,4 +26,4 @@ function gallery() {
 )
 }
 
-export default gallery 
+export default Gallery 
