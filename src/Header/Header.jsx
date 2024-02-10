@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,NavLink} from 'react-router-dom'
-import img1 from '../assets/logo/logo.jpg'
+import img1 from '../assets/logo/logo.png'
 
 export default function Header() {
     return (

@@ -9,6 +9,10 @@ import Contact from './Contact/Contact.jsx'
 import User from './User/User.jsx'
 import Github from './Github/Github.jsx'
 import About1 from './About/About1.jsx'
+import Head from './Header/Head.jsx'
+import Foot from './Footer/Foot.jsx'
+import Headers from './Header/Headers.jsx'
+import Chat from './Header/Chat.jsx'
 
 
 // method 1 
@@ -37,10 +41,11 @@ import About1 from './About/About1.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>} >
-      <Route path='' element={<Home/>} />
+      <Route path='' element={<Home/>} /> 
       <Route path='about' element={<About1/>} />
       <Route path='contact' element={<Contact/>} />
       <Route path='user/:userid' element={<User/>} />
+
       <Route path='github' element={<Github/>} />
     </Route>
 

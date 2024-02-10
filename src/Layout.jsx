@@ -3,15 +3,18 @@ import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import { Outlet } from 'react-router-dom'
 import ElfSightPlugin from './Plugin/ElfSightPlugin'
-import Heade from './Header/Heade'
+import Foot from './Footer/Foot'
+import Head from './Header/Head'
+import Chat from './Header/Chat'
+
 
 function Layout() {
   return (
     <>
-    <Heade/>
+    <Chat/>
     <Outlet/>
     <ElfSightPlugin/>
-    <Footer/>
+    <Foot/>
     </>
   )
 }
